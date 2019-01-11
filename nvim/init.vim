@@ -6,6 +6,8 @@ colorscheme monokai-tasty
 set number " relativenumber for later
 set tabstop=4 " Good indentation
 set shiftwidth=4
+" Show the friend
+set showmatch
 
 " Vim semi-hardmode
 noremap <Up> <Nop>

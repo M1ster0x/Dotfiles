@@ -12,6 +12,8 @@ alias gg="ping -c 4 google.com"
 alias ipe='curl ipinfo.io/ip'
 # Enable resume on wget
 alias wget="wget -c"
+# List all tracked files
+alias gls="git ls-tree --full-tree -r --name-only HEAD"
 # Combination of mkdir + cd
 mkcd() {
 	mkdir -p "$1"
