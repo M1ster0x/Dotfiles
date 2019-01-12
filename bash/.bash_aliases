@@ -1,5 +1,6 @@
 # do not delete / or prompt if deleting more than 3 files at a time 
 alias rm='rm -I --preserve-root' 
+alias poweroff="/sbin/poweroff"
 # Classical ls aliases 
 alias ll='ls -l'
 alias la='ls -A'

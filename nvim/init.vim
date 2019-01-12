@@ -3,7 +3,7 @@ syntax on
 colorscheme monokai-tasty
 
 " Default settings
-set number " relativenumber for later
+set relativenumber
 set tabstop=4 " Good indentation
 set shiftwidth=4
 " Show the friend
