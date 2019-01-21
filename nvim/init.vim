@@ -15,13 +15,23 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" Easier escape from terminal mode
+tnoremap <Esc> <C-\><C-n>
+tnoremap <M-[> <Esc>
+tnoremap <C-v><Esc> <Esc>
+
+" Personal mapping
+map <C-l> :noh<CR>
+
 " Install plugins 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'kien/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
-Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/syntastic'
+Plug 'rstacruz/sparkup'
+Plug 'donRaphaco/neotex', { 'for': 'tex' }
 call plug#end()
 
 " Plugins conf
