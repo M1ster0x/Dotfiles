@@ -20,11 +20,3 @@ mkcd() {
 	mkdir -p "$1"
 	cd "$1"
 }
-
-# Secu tools
-# Unify instead of putting them all in /usr/bin
-alias dumpzilla="python /opt/dumpzilla.py"
-alias pdf-parser="python /opt/pdf-parser.py"
-alias stegsolve="java -jar /opt/StegSolve.jar"
-alias dirbuster="java -jar /opt/DirBuster-0.12/DirBuster-0.12.jar"
-alias veloceo="/opt/veloceo.sh"

@@ -105,13 +105,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Setup beef/maven
-#---------------------------------------------------------------------
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-export PATH="/opt/apache-maven-3.5.4/bin:$PATH"
-eval "$(rbenv init -)"
-
 #Editor setting
 #---------------------------------------------------------------------
  if [[ -n $SSH_CONNECTION ]]; then
