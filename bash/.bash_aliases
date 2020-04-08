@@ -20,3 +20,12 @@ mkcd() {
 	mkdir -p "$1"
 	cd "$1"
 }
+
+# Intel disassembly mode
+alias objdump="/usr/bin/objdump -M intel"
+
+# Ctags <3
+ctags() {
+	cp /opt/linux-tags $1/tags
+	/usr/bin/ctags -a -f tags -R $1
+}
